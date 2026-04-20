@@ -1,0 +1,3 @@
+/home/riccardo/Scrivania/mnist_nn_cpp/build/CMakeFiles/backend.dir
+/home/riccardo/Scrivania/mnist_nn_cpp/build/CMakeFiles/edit_cache.dir
+/home/riccardo/Scrivania/mnist_nn_cpp/build/CMakeFiles/rebuild_cache.dir
