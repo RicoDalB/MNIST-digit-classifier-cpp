@@ -43,14 +43,46 @@ These results show strong performance for a handwritten digit recognizer impleme
 ```text
 .
 ├── backend/
-├── frontend/
-├── pretrained/
+│   ├── api/
+│   │   ├── api_server.cpp
+│   │   ├── api_server.h
+│   │   └── httplib.h
+│   ├── app/
+│   │   ├── predictor.cpp
+│   │   ├── predictor.h
+│   │   ├── trainer.cpp
+│   │   └── trainer.h
+│   ├── io/
+│   │   ├── dataset_utils.cpp
+│   │   ├── dataset_utils.h
+│   │   ├── mnist_reader.cpp
+│   │   ├── mnist_reader.h
+│   │   ├── weights_io.cpp
+│   │   └── weights_io.h
+│   ├── math/
+│   │   ├── matrix.cpp
+│   │   └── matrix.h
+│   ├── nn/
+│   │   ├── activations.cpp
+│   │   ├── layer.cpp
+│   │   ├── layer.h
+│   │   ├── loss.cpp
+│   │   ├── loss.h
+│   │   ├── neural_network.cpp
+│   │   └── neural_network.h
+│   ├── CMakeLists.txt
+│   └── main.cpp
 ├── data/
-├── build/
+│   ├── t10k-images.idx3-ubyte
+│   ├── t10k-labels.idx1-ubyte
+│   ├── train-images.idx3-ubyte
+│   └── train-labels.idx1-ubyte
+├── frontend/
+│   ├── app.js
+│   ├── index.html
+│   └── style.css
 ├── README.md
-└── .gitignore
 ```
-
 ---
 
 ## How It Works
