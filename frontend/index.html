@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MNIST Digit Classifier</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>MNIST Digit Classifier in C++</h1>
+    <p class="subtitle">Draw a digit and let the trained network predict it.</p>
+
+    <section class="card">
+      <canvas id="draw-canvas" width="280" height="280"></canvas>
+
+      <div class="controls">
+        <button id="predict-btn">Predict</button>
+        <button id="clear-btn">Clear</button>
+      </div>
+
+      <div class="result">
+        <h2 id="prediction">Prediction: -</h2>
+        <p id="confidence">Confidence: -</p>
+      </div>
+
+      <div class="probabilities">
+        <h3>Class probabilities</h3>
+        <div id="bars"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+- Header file: declaration, class definition, function signatures -> what exists
+- Source file: implementations -> how dose it work
+
+- Class: data, functions that operate on that data 
+    Matrix is a class becouse matrix data and matrx behaviur belong toghether
+
+- Public: what other files can use
+- Private: Internal details hidden inside the class 
+
+- Constructor: initialize an object -> Matric m(3,4); -> call constructor and create an 3x4 matrix
+
+- std::vecotr: use for matrix storage, image pixels, labels, weights, biases
+
+- const: this means this function dose not modify this object
+
+- in private of a class-> double& at(int ..) double& means reference to a double, not return a copy but give acces to actual element inside the store.
+
+For run inside build/: 
+cmake ../backend
+make
+./backend
